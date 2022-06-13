@@ -5,21 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      table,
-      td,
-      th {
-        border: 1px solid green;
+      table , td , th {
+        border: 1px solid grey;
         border-collapse: collapse;
         padding: 5px;
       }
       tfoot {
-        text-align:center;
-      }
-      td {
-        text-align: center;
-      }
-      tr {
-        text-align: center;
+        text-align: left;
       }
     </style>
   </head>
@@ -27,7 +19,7 @@
     <table>
       <thead>
         <tr>
-          <th colspan="  2">Expenses</th>
+          <th colspan="2">Expenses</th>
         </tr>
         <tr>
           <th>Category</th>
@@ -35,12 +27,6 @@
         </tr>
       </thead>
       <tbody>
-        <tfoot>
-          <tr>
-            <th>Total</th>
-            <th>&300</th>
-          </tr>
-        </tfoot>
         <tr>
           <td>Marketing</td>
           <td>$100</td>
@@ -50,6 +36,12 @@
           <td>$200</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
