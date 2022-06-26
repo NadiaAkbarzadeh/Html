@@ -1,7 +1,11 @@
 body {
     margin: 10px;
 }
-    a[href*="https"][href$=".com"]
+a[href^="https"][href$=".com"]
+
+#products {
+    
+}
     {
         color: orange;
     }
