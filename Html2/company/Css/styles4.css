@@ -1,0 +1,16 @@
+h1{
+    color: dodgerblue;
+}
+.highlight {
+    color: darkred;
+}
+/* #product {
+    color: green;
+
+} */
+.freatured #products {
+    color: dodgerblue;
+}
+html body #featured h2#products.highlight {
+    
+}
