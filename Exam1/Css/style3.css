@@ -1,8 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 10px;
+}
+.box ::before { 
+    content:"Hellllo";
+}
 .box{
     width: 100px;
     height: 100px;
     background-color: gold;
-    padding: 200px;
-    border: 10px solid orangered;
-    margin: 50px;
+    display: inline-block;
 }
