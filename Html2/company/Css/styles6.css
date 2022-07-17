@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template: 100px auto 100px /30fr 70fr;
+    
+    gap: 10px 20px;
+    border: 10px solid lightgrey;
+    height: 100vh;
+}
+.box{
+    background: gold;
+}
+.box-one{
+    grid-column: 1/span2;
+}
+
