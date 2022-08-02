@@ -1,0 +1,11 @@
+body {
+/*margin: 10px;*/
+}
+.box {
+    /*10 x 16px = 160px*/
+    font-size: 20px;
+    width: 10em;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orangered;
+}
