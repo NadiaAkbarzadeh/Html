@@ -1,0 +1,45 @@
+body{
+    margin: 10px;
+    height: 200vh;
+}
+.boxes{
+   border: 5px solid lightgrey;
+}
+.box{
+width: 5rem;
+height: 5rem;
+}
+.box-one{
+    background: gold;
+}
+.box-two{
+    background: tomato;
+    position:fixed;
+    top:0;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+    z-index: 9999;
+}
+.box-three{
+    background: dodgerblue;
+    position: relative;
+}
+.box-four{
+    background: rgb(44, 93, 141);
+    position: relative;
+    left: 15rem;
+}
+.box-five{
+    background: rgb(82, 89, 97);
+    position: relative;
+    left: 20rem;
+}
+.box-six{
+    background: rgb(1, 21, 41);
+    position: relative;
+    left: 25rem;
+}
+
+
+
