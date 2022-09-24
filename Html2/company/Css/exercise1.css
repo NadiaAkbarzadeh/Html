@@ -9,7 +9,7 @@ bpdy{
 }   
 
 .topnav a{
-    float:right;
+    float:left;
     color:rgb(241, 76, 21);
     text-align: center;
     padding: 14px 16px;
